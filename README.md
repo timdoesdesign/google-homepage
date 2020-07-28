@@ -1,0 +1,1 @@
+Building the Google.com homepage with just a search box to practice using HTML and CSS.
