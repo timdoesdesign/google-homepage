@@ -17,6 +17,59 @@ a:hover {
 }
 
 /************************
+Header
+************************/
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  display: inline-block;
+  width: 100%;
+  padding-top: 1rem;
+}
+
+.header li,
+footer li {
+  display: inline-block;
+}
+
+.header__left,
+.footer__left {
+  float: left;
+}
+
+.header__left li,
+.footer__left li {
+  padding-left: 1.5rem;
+}
+
+.header__right,
+.footer__right {
+  float: right;
+}
+
+.header__right li,
+.footer__right li {
+  padding-right: 1.5rem;
+}
+
+.sign-in {
+  background-color: #4285f4;
+  border: 1px solid #4285f4;
+  border-radius: 2px;
+  color: #fff;
+  cursor: default;
+  font-weight: bold;
+  padding: .4rem .8rem;
+}
+
+.sign-in:hover {
+  text-decoration: none;
+}
+
+/************************
 Main
 ************************/
 .main-content {
@@ -83,24 +136,4 @@ footer {
   bottom: 0;
   left: 0;
   width: 100%;
-}
-
-footer li {
-  display: inline-block;
-}
-
-.footer__left {
-  float: left;
-}
-
-.footer__left li {
-  padding-left: 2rem;
-}
-
-.footer__right {
-  float: right;
-}
-
-.footer__right li {
-  padding-right: 2rem;
 }
